@@ -4,7 +4,10 @@ class Migrate_user():
 
         self.cursor.execute("""CREATE TABLE IF NOT EXISTS user(
                             name TEXT,
-                            points INTERER
+                            points INTERER,
+                            badMsg INTEGER,
+                            goodMsg INTEGER
+
                             )
                             """)
         

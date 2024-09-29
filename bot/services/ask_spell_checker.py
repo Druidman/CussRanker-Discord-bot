@@ -5,7 +5,7 @@ class Spell_checker():
     def __init__(self,groq_api_key):
         self.sys_prompt = """
         JSON. Zadecyduj czy wiadomość użytkownika jest wulgarna czy nie.
-        Jeżeli jest wulgarna/wyzywa kogoś to zwróć takiego JSONa:
+        Jeżeli jest wulgarna/wyzywa kogoś/jest wątpliwa etycznie, to zwróć takiego JSONa:
         {"decision": "add"}.
         Jeżeli nie zwiera przekleństw/wulgaryzmów to takiego JSONa:
         {"decision": "keep"}.

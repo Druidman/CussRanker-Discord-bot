@@ -14,7 +14,12 @@ def register_events(client,groq_api_key):
     async def on_message(message):
         result = event_handler.on_message(message=message,client=client)
         if result:
-            await message.channel.send(result)
+            
+
+            channel = client.get_channel(1287330884864970826)
+            
+            await channel.send(result)
+            
     
 
     

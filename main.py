@@ -11,4 +11,3 @@ bot = create_bot()
 
 bot.run(token=str(discord_token))
 
-
