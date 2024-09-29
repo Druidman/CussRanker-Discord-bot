@@ -35,6 +35,7 @@
     - **`GROQ_API_KEY`**,
     - **`ADD_LINK`** (Optional),
     - **`DISCORD_TOKEN`**
+    - **`CHANNEL_ID`**
 4. Open terminal and type: `python3 main.py`
 
 # Now you are all set. **HAVE FUN**
